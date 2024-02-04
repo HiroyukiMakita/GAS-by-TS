@@ -6,13 +6,13 @@ GoogleAppScript projects of TypeScript for local environment develop.
 
 ```
   # You should login.
-$ npx clasp login
+$ yarn  clasp login
 
   # Make your GAS code put directory.
 $ mkdir -p ./src/<dir_name>
 
   # You can pulling your GAS project.
-$ npx clasp -P ./src/<dir_name> clone < your_script_id >
+$ yarn  clasp -P ./src/<dir_name> clone < your_script_id >
 ( If permission to access clasp is requested, grant it. )
 
   # Change your GAS code directory.
@@ -22,7 +22,7 @@ $ cd ./src/<dir_name>
 $ mv コード.js main.ts
 
   # You can push local environment editted content of your GAS.
-$ npx clasp push
+$ yarn  clasp push
 ```
 
 ※ If you have failed `clasp push`, then You should chenge [settings about GAS API](https://script.google.com/home/usersettings) to on.
