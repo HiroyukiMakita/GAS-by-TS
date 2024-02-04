@@ -1,4 +1,4 @@
-# TS-in-GAS
+# GAS-by-TS
 
 GoogleAppScript projects of TypeScript for local environment develop.
 
