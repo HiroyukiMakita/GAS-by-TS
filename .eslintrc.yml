@@ -1,0 +1,30 @@
+# チェック対象のコードがどの実行環境で使われるか
+# https://eslint.org/docs/latest/use/configure/language-options#specifying-environments
+env:
+  # node の環境変数
+  node: true
+  # ES2024 までに導入されたグローバル変数を認識する
+  es2024: true
+
+parser: '@typescript-eslint/parser'
+
+parserOptions:
+  # ES Modules を使ってコードを書く場合は module を指定する必要がある
+  sourceType: module
+
+# plugins:
+
+# パッケージが提供してくれているおすすめ設定を使う設定
+extends:
+  # eslint が提供してくれている設定
+  - 'eslint:recommended'
+  # prettier
+  - 'prettier'
+
+# ルール設定
+rules: {
+  no-unused-vars: 'off'
+}
+
+# https://eslint.org/docs/latest/user-guide/configuring/language-options#specifying-globals
+globals: {}

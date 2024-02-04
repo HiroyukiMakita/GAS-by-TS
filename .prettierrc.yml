@@ -1,0 +1,13 @@
+# https://prettier.io/docs/en/configuration.html
+# 折り返す行の長さ
+printWidth: 120
+# インデントのスペース数の指定
+tabWidth: 2
+# 文字列などシングルクオートで囲む
+singleQuote: true
+# 末尾のカンマの設定
+trailingComma: es5
+# ステートメントの最後のセミコロンの設定
+semi: true
+# オブジェクトのプロパティでの引用符の入力使用を尊重
+quoteProps: 'preserve'
