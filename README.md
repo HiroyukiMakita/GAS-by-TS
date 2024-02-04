@@ -9,7 +9,7 @@ GoogleAppScript projects of TypeScript for local environment develop.
 $ npx clasp login
 
   # Make your GAS code put directory.
-$ mkdir ./src/<dir_name>
+$ mkdir -p ./src/<dir_name>
 
   # You can pulling your GAS project.
 $ npx clasp -P ./src/<dir_name> clone < your_script_id >
